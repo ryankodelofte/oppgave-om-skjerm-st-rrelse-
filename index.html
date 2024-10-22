@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>heisan</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <div class="headerLogo">RD</div>
+      <nav>
+        <ul class="navigation">
+          <a href=""> <li>video Ryan</li> </a>
+          <li>page2</li>
+          <li>page3</li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>Home page</h1>
+      <!-- Hero seksjon med informasjon. Klasser delt for plassering av innhold. -->
+      <section class="hero">
+        <img class="heroImg" src="img ryan/IMG_5132.jpg" alt="bilderyan">
+        <div class="heroText">
+          <h1>Ryan Desgin group</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex tempore quos totam cumque sunt.</p>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Prosjekter</h2>
+
+        <div class="projectCard">
+          <article class="card">
+            <div class="cardText">
+              <h3>Kort nr 1</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, provident?</p>
+            </div>
+            <img class="cardImg" src="" alt="Illustrasjon til kort 1">
+          </article>
+
+          <article class="card">
+            <div class="cardText">
+              <h3>Kort nr 2</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, provident?</p>
+            </div>
+            <img class="cardImg" src="" alt="Illustrasjon til kort 2">
+          </article>
+
+          <article class="card">
+            <div class="cardText">
+              <h3>Kort nr 3</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, provident?</p>
+            </div>
+            <img class="cardImg" src="" alt="Illustrasjon til kort 3">
+          </article>
+        </div>
+      </section>
     </main>
+    <footer>
+      <p>Laget av Julie Hauge</p>
+    </footer>
   </body>
 </html>
