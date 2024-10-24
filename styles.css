@@ -4,7 +4,7 @@
 /* {} idicates a CSS Declaration */
 body {
   /* property:value; is a CSS Rule */
-  background-color: rgba(216, 142, 52, 0.801)
+  background-color: rgba(134, 111, 88, 0.801)
   color: #0d0d0d;
 }
 
@@ -18,7 +18,7 @@ header {
 
 .headerLogo {
   padding: 8px;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 50%;
 }
 
