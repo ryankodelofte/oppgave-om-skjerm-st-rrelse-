@@ -4,7 +4,7 @@
 /* {} idicates a CSS Declaration */
 body {
   /* property:value; is a CSS Rule */
-  background-color: rgb(194, 157, 77);
+  background-color: rgba(216, 142, 52, 0.801)
   color: #0d0d0d;
 }
 
@@ -77,7 +77,7 @@ header {
 }
 
 .cardText {
-  width: 50%;
+  width: 40%;
 }
 
 .cardImg {
